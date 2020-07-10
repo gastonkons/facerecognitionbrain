@@ -1,0 +1,63 @@
+header {
+  height: 70px;
+  background: linear-gradient(90deg, rgba(22,180,203,1) 0%, rgba(121,9,86,1) 100%);
+  box-shadow: -10px 0 20px rgba(0,0,0,.3);
+  box-shadow: inset 0 10px 30px rgba(255,255,255,.1);
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoBox {
+  display:flex;
+  justify-content: flex-start;
+  margin-left:20px;
+  align-items: center;
+  cursor:pointer;
+}
+
+.logoBox p {
+  font-family:'Roboto';
+  color:white;
+  margin:0;
+  margin-left:15px;
+  font-size:22px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  transition: all ease 300ms;
+}
+
+.logoBox p:hover {
+  color:rgb(36, 226, 255)
+}
+
+nav {
+  display:flex;
+  justify-content: flex-end;
+  margin-right:10px;
+}
+
+nav p {
+  margin:0;
+  color: #fff;
+  padding:20px;
+  cursor: pointer;
+  transition: all ease 300ms;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+nav p:hover{
+  color:rgb(36, 226, 255);
+}
+
+@media screen and (max-width:500px) {
+  .logoBox p {
+    display:none;
+  }
+  nav p {
+    font-size: 14px
+  }
+}

@@ -1,0 +1,60 @@
+.imgBoxContainer {
+  margin-top: 20px;
+  width:100%;
+  margin:0 auto;
+}
+
+.imgBox {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.img {
+ width:100%;
+}
+
+.tilt-img {
+  margin: 35px auto 60px auto;
+}
+
+
+.bounding-box {
+  position: absolute;
+  border: 2px solid#16B4CB
+  ;
+  box-shadow: 0 0 10px #fff;
+  cursor:pointer;
+}
+
+.bounding-box:hover {
+  box-shadow: 0 0 30px #fff;
+}
+
+.hidden {
+  display:none;
+}
+
+.loadingBox {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  top: 0;
+  left: 0;
+  right:0;
+  bottom: 0;
+}
+
+.textError {
+  color: red;
+  margin:0;
+  background-color: rgba(255, 202, 202, .8);
+  border: 2px solid red;
+  border-radius: 10px;
+  padding:10px 20px;
+}

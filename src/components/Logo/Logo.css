@@ -1,0 +1,13 @@
+.logo-box {
+  margin: 0 20px ;
+  border-radius:10px;
+  background: linear-gradient(270deg, rgb(36, 226, 255) 0%, rgb(255, 5, 176) 100%);
+}
+
+.Tilt-inner {
+  padding: 15px;
+}
+
+.logo-box:hover {
+  box-shadow: 0 0 40px 10px #fff;
+}
