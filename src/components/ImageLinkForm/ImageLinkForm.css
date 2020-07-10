@@ -1,0 +1,58 @@
+.imageLinkForm {
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: column;
+}
+
+.imageLinkForm p {
+  font-size: 26px;
+  font-weight: 600;
+  color:white;
+}
+
+.formBox {
+  width:100%;
+  max-width: 600px;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+}
+
+.formInput {
+  width: 70%;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-top-left-radius: 10px;
+  border: none;
+  outline: none;
+  border-bottom-left-radius: 10px;
+}
+
+.formInput:focus {
+  box-shadow: 0 0 10px #fff;
+}
+
+.formButton {
+  border: none;
+  outline: none;
+  width:30%;
+  font-size: 16px;
+  padding: 10px 15px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  cursor: pointer;
+  background-color:rgba(22,180,203,1);
+  font-weight: 600;
+  color: rgba(121,9,86,1);
+  transition: all ease 200ms;
+  
+}
+
+.formButton:hover {
+  transform:  scale(1.1);
+  border-radius: 10px;
+  color:white;
+  box-shadow:inset 0 0 10px #ffffffff;
+  transform: translateX(10px);
+}
