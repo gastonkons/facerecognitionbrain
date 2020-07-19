@@ -1,13 +1,20 @@
 .textBox {
+<<<<<<< HEAD
   display: flex;
   justify-content: center;
 
+=======
+  display:flex;
+  justify-content: center;
+  
+>>>>>>> 60cbe6d5f0bfbee07c2290101ac90e2734e7dae3
 }
 
 .userText {
   font-size: 30px;
   color: white;
   padding: 1px 20px;
+<<<<<<< HEAD
   background: linear-gradient(90deg, rgba(22, 180, 203, 1) 0%, rgba(121, 9, 86, 1) 100%);
   display: flex;
   justify-content: center;
@@ -15,6 +22,15 @@
   border-radius: 20px;
   margin: 40px 10px;
   width: 100%;
+=======
+  background:linear-gradient(90deg, rgba(22,180,203,1) 0%, rgba(121,9,86,1) 100%);
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  border-radius:20px;
+  margin: 40px 10px;
+  width:100%;
+>>>>>>> 60cbe6d5f0bfbee07c2290101ac90e2734e7dae3
 }
 
 

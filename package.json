@@ -12,8 +12,12 @@
     "react-dom": "^16.13.1",
     "react-particles-js": "^3.2.1",
     "react-scripts": "3.4.1",
+<<<<<<< HEAD
     "react-tilt": "^0.1.4",
     "serve": "^11.3.2"
+=======
+    "react-tilt": "^0.1.4"
+>>>>>>> 60cbe6d5f0bfbee07c2290101ac90e2734e7dae3
   },
   "scripts": {
     "start": "react-scripts start",

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useState } from 'react';
 import './SignIn.css'
 
@@ -36,12 +37,19 @@ function SignIn({changeRoute, setUser}){
       })
       .catch(err => {console.log('errrrror')})
   }
+=======
+import React from 'react';
+import './SignIn.css'
+
+function SignIn({changeRoute}){
+>>>>>>> 60cbe6d5f0bfbee07c2290101ac90e2734e7dae3
 
   return (
     <div className='loggin'>
       <div className='logginBox'>
         <h2>Sign in</h2>
         <input 
+<<<<<<< HEAD
           placeholder='E-mail'
           type='text'
           required
@@ -49,6 +57,14 @@ function SignIn({changeRoute, setUser}){
           id='logginSignName'
           name='logginSignName'
           onChange={(event) => { onEmailChange(event) }}
+=======
+          placeholder='Username'
+          type='text'
+          required
+          autoFocus
+          id='logginSignUsername'
+          name='logginSignUsername'
+>>>>>>> 60cbe6d5f0bfbee07c2290101ac90e2734e7dae3
         />
         <input 
           placeholder='Password'
@@ -56,10 +72,16 @@ function SignIn({changeRoute, setUser}){
           required
           id='logginSignPassword'
           name='logginSignPassword'
+<<<<<<< HEAD
           onChange={(event) => { onPasswordChange(event) }}
         />
         <button onClick={onSubmitSignIn}>Sign in</button>
         <p className='logginRegister' onClick={()=> changeRoute('register') }>Register</p>
+=======
+        />
+        <button onClick={() => changeRoute('logged')}>Sign in</button>
+        <p className='logginRegister' onClick={()=> changeRoute('register')}>Register</p>
+>>>>>>> 60cbe6d5f0bfbee07c2290101ac90e2734e7dae3
       </div>
     </div>
   )
