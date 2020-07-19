@@ -1,20 +1,20 @@
 .textBox {
-  display:flex;
+  display: flex;
   justify-content: center;
-  
+
 }
 
 .userText {
   font-size: 30px;
   color: white;
   padding: 1px 20px;
-  background:linear-gradient(90deg, rgba(22,180,203,1) 0%, rgba(121,9,86,1) 100%);
-  display:flex;
+  background: linear-gradient(90deg, rgba(22, 180, 203, 1) 0%, rgba(121, 9, 86, 1) 100%);
+  display: flex;
   justify-content: center;
-  align-items:center;
-  border-radius:20px;
+  align-items: center;
+  border-radius: 20px;
   margin: 40px 10px;
-  width:100%;
+  width: 100%;
 }
 
 

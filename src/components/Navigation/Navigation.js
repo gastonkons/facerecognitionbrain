@@ -12,7 +12,7 @@ const Navigation  = ({route, changeRoute}) => {
       <nav>
         {
           route === 'logged' &&
-          <p onClick={()=> changeRoute('signin')}>Sign out</p>
+          <p onClick={()=> changeRoute('signout')}>Sign out</p>
         }
         {
           route === 'signin' &&
